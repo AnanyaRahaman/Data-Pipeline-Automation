@@ -1,0 +1,16 @@
+{
+  "name": "seclink-data-discovery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "pipeline": "tsx src/pipeline.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "csv-parse": "^5.5.6"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  }
+}
